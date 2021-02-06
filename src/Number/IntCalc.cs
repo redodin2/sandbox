@@ -11,7 +11,7 @@
 
         public readonly struct IntSubstractor : IFn<int, int, int>
         {
-            public int Invoke(int in1, int in2) => in1 + in2;
+            public int Invoke(int in1, int in2) => in1 - in2;
         }
 
         public readonly struct IntMultiplier : IFn<int, int, int>

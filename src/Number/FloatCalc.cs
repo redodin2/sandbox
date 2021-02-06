@@ -11,7 +11,7 @@
 
         public readonly struct FloatSubstractor : IFn<float, float, float>
         {
-            public float Invoke(float in1, float in2) => in1 + in2;
+            public float Invoke(float in1, float in2) => in1 - in2;
         }
 
         public readonly struct FloatMultiplier : IFn<float, float, float>

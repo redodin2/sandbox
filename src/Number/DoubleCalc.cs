@@ -11,7 +11,7 @@
 
         public readonly struct DoubleSubstractor : IFn<double, double, double>
         {
-            public double Invoke(double in1, double in2) => in1 + in2;
+            public double Invoke(double in1, double in2) => in1 - in2;
         }
 
         public readonly struct DoubleMultiplier : IFn<double, double, double>
